@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.bg-container {
+  background-image: url("https://assets.ccbp.in/frontend/react-js/congrats-card-bg.png");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: roboto;
+}
+.text-style {
+  text-align: center;
+}
+.heading-color {
+  color: #0f172a;
+}
+.person-name {
+  color: #1e293b;
+}
+.college-name {
+  color: #1e293b;
+}
+.card-container {
+  background-color: #cffafe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 25px;
+  border-radius: 12px;
+}
+.image-size {
+  height: 100px;
+}
